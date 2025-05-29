@@ -1,0 +1,49 @@
+First , i opened the search and wrote: git cmd
+
+#cd downloads => is used to change the current directory to a folder named "downloads"
+
+#mkdir dom-exercises-level1 => to create a folder
+
+#cd dom-exercises-level1 => we have entered the file
+
+#git init => the command git init converts any regular folder into a Git project
+
+#notepad README.md => you can create a file and open it in Notepad to write or add whatever you want inside ( searched for something similar to nano but for Windows, i could also create it using the touch command)
+
+#notepad index.html => i created another file 
+
+#git add . => this will add the files in the current directory(and subdirectories) to the staging area
+
+#git remote add origin https://github.com/KhadijaShames/libanux-website-git-github-task.gi => the command is used to link your local Git repository to a remote repository (e.g., on GitHub, GitLab, or Bitbucket)
+Here’s the translation of your Git commands and explanations in English:
+
+#git branch -M main => renamed the current branch to main
+
+#git push -u origin main => used when you want to push to the main branch on GitHub for the first time.
+
+#mkdir styles scripts => this command creates four directories (folders): styles and scripts. These are used to organize the project structure.
+styles: Will contain the CSS files
+scripts: Will hold JavaScript files
+
+#cd styles => this changes the current directory to the styles folder
+
+#notepad styles.css => this opens Notepad and creates the styles.css file inside the styles directory
+
+#cd .. => this takes you back to the parent directory
+
+#cd scripts => this changes the current directory to the scripts folder.
+
+#notepad main.js => this opens Notepad and creates the main.js file inside the scripts directory.
+
+#cd .. => this takes you back to the root of the project.
+
+#code . => this opens the current directory in Visual Studio Code. If you're using VS Code, this command launches the editor to work on your files
+
+#git add . => this stages all the changes made (i.e., the files and folders you created or modified) in the current directory and subdirectories, preparing them to be committed
+
+#git commit -m "that's all the task" => this commits the staged changes with the message "feat: update website structure with pages, styles, and logo". It describes the changes 
+
+#git pull origin main --no-edit => this pulls the latest changes from the main branch on GitHub, and merges them into your local repository without changing the commit message 
+(since you're using the --no-edit option). This is helpful if someone else has pushed changes to the repository that you need to integrate into your local version
+
+#git push origin main => this pushes your local changes (committed files) to the main branch on the remote GitHub repository
